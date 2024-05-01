@@ -12,7 +12,7 @@ import time
 import csv
 
 def initialize_driver():
-    driver_path = r'C:\Users\Phatboi\Downloads\geckodriver-v0.34.0-win32\geckodriver.exe'
+    driver_path = r'C:\PathToGeckoDriver'
     binary_path = r'C:\Program Files\Mozilla Firefox\firefox.exe'
     service = Service(executable_path=driver_path)
     options = Options()
